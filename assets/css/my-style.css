@@ -58,6 +58,10 @@ a:active {
     background: linear-gradient(#38777f, #5fadb7);
     color: lightyellow;
 }
+.footer {
+    background: linear-gradient(#5fadb7,#38777f);
+    color: lightyellow;
+}
 
 .lightblack {
     color: #000000;
@@ -82,5 +86,5 @@ a:active {
 }
 
 .bg-light-green {
-    background-color: #5fadb7;
+    background-color: #5fadb72b;
 }
