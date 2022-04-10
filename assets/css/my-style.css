@@ -1,10 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+/* Custom CSS to prevent the content
+to go underneath the navbar */
+body {
+    padding-top: 30px;
+}
 
-html , body{
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    width: 100%;
+.header-div {
+    background-image: url("../../assets/img/home.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.head-title {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 55px;
+
+}
+
+a {
+    color: lightyellow;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightyellow;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightyellow;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
+.menu {
+    background: linear-gradient(#38777f, #5fadb7);
+    color: lightyellow;
+}
+
+.lightblack {
+    color: #000000;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.lightyellow {
+    color: lightyellow;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.lightgreen {
+    color: #38777f;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.bg-light-green {
+    background-color: #5fadb7;
+}
